@@ -45,6 +45,12 @@ The top 100 sentences with the highest similarity are stored in sentences_releva
 
 Semantic Search for Answers: The sentiment_by_search function uses the question, sentences_relevant, and the semantic similarity model to extract contextually similar sentences.
 
+
 **Generating a Human-Like Response:**
 Finally, to create a human-like answer, a trained model (distilGPT-2) generates the response. The maximum response length is set based on the length of the extracted text.
 This method ensures accurate question-answering by using both statistical and semantic approaches.
+
+
+## sample:
+I used clustering_2.pdf as a text file sample and the following question, which can be replaced in the implementation.
+"What is K_means algorithm?"
