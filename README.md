@@ -6,7 +6,8 @@ In many scientific and non-scientific textual datasets, we might seek an answer 
 
 In the implementation, the textual file is considered in PDF format.
 
-##steps:
+## steps:
+
 **Extracting Text from a PDF:** 
 The text is extracted from a PDF file using the PuMuPDF library.
 
