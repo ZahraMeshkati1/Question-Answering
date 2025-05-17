@@ -1,6 +1,12 @@
-## Question Answering implementation
+# Question Answering implementation
+Nowadays, due to the large volume of textual data across various fields and the need to process them, NLP (Natural Language Processing) has gained significant attention.
+This topic has multiple subfields, and here we focus on question answering.
 
-#steps:
+In many scientific and non-scientific textual datasets, we might seek an answer to a specific question within a large amount of text. This method helps us extract our answer from an entire article or dataset using semantic analysis and search, ultimately providing a coherent, human-like response.
+
+In the implementation, the textual file is considered in PDF format.
+
+##steps:
 **Extracting Text from a PDF:** 
 The text is extracted from a PDF file using the PuMuPDF library.
 
